@@ -271,7 +271,3 @@ if __name__ == "__main__":
     classifier = EmotionClassifier()
     classifier.train_model('training.csv', 'test.csv', 'validation.csv')
     '''
-
-    # For making predictions with trained model:
-    result = predict_text_emotion("I'm so happy today!")
-    print(result['primary_emotion']['emotion'] == 1)
