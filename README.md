@@ -2,6 +2,8 @@
 
 EmotionIQ is a Flask-based web application that performs sentiment and emotion analysis on tweets. The application leverages machine learning models and the Tweepy API to classify emotions such as joy, sadness, love, anger, and fear in tweets. It features an interactive frontend built with Tailwind CSS and integrates a custom-trained model for accurate emotion detection.
 
+Model achieves 90% test accuracy and 89% Macro-F1 score, leveraging TF-IDF vectorization, logistic regression, SMOTE for imbalance handling, and GridSearchCV for hyperparameter tuning. 
+
 ---
 
 ## Features
@@ -22,5 +24,9 @@ EmotionIQ is a Flask-based web application that performs sentiment and emotion a
 - **API**: Tweepy API integration to fetch and analyze live tweets.
 
 ---
-
+## Demo
 ![Demo](images/demo.png "Demonstration")
+
+## Confusion Matrices for ML Model
+![Confusion Matrix - Validation](images/confusion_matrix_validation.png "Confusion Matrix - Validation")
+![Confusion Matrix - Test](images/confusion_matrix_test.png "Confusion Matrix - Test")
