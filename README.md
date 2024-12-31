@@ -23,4 +23,4 @@ EmotionIQ is a Flask-based web application that performs sentiment and emotion a
 
 ---
 
-![Demo](images/demo "Demonstration")
+![Demo](images/demo.png "Demonstration")
